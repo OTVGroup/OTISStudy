@@ -141,7 +141,7 @@
         transform: translateX(-50%); /* dịch tâm khối về chính giữa */
 
         width: 100vw;
-        min-width: 400px;
+        min-width: 360px;
         height: calc(100vh - 80px);
         overflow-x: scroll;
 
@@ -153,7 +153,7 @@
       .header {
         width: 100vw;
         padding: 10px 20px 15px 20px;
-        min-width: 400px;
+        min-width: 360px;
         height: auto;
         display: flex;
         background-color: #000000;
@@ -210,7 +210,7 @@
       }
 
       .post-content .post-box {
-        flex: 1 1 480px;
+        flex: 1 1 420px;
         max-width: 30%;
         aspect-ratio: 500/419;
         display: flex;
@@ -227,13 +227,13 @@
 
       @media (max-width: 900px) {
         .post-content .post-box {
-          flex: 1 1 420px;
+          flex: 1 1 360px;
           max-width: 40%;
         }
       }
       @media (max-width: 600px) {
         .post-content .post-box {
-          flex: 1 1 360px;
+          flex: 1 1 300px;
           max-width: 90%;
         }
       }
@@ -790,28 +790,28 @@
             name: "40 mẹo khi sử dụng Solidworks",
             type: ["BSTN", "SOLID"],
             img: "https://raw.githubusercontent.com/OTVGroup/OTISStudy/main/Folder/TECHNIQUE/OTVOS_BSTN01.jpg",
-            link: "https://drive.google.com/file/d/1d-0eDhm635JeFjvYBukNbum4GZSC9aLp/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/1z0AB-ITPSyKBD3heBnRlHjObflocQaBz/view?usp=drive_link",
           },
           {
             code: "OTVOS_BSTN02",
             name: "200 Bài Tập Luyện CADCAMCNC",
             type: ["BSTN", "CAD"],
             img: "https://raw.githubusercontent.com/OTVGroup/OTISStudy/main/Folder/TECHNIQUE/OTVOS_BSTN02.jpg",
-            link: "https://drive.google.com/file/d/175omK-aiR2PXttsRmG9t0ogC82i7t8_X/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/19Eq7GjAvHcz8LInqeiHb9Zbat8R4rmOq/view?usp=drive_link",
           },
           {
             code: "OTVOS_BSTN03",
             name: "MATLAB & SIMULINK cho kỹ sư điều khiển tự động",
             type: ["BSTN", "MATLAB", "SIMU"],
             img: "https://raw.githubusercontent.com/OTVGroup/OTISStudy/main/Folder/TECHNIQUE/OTVOS_BSTN03.jpg",
-            link: "https://drive.google.com/file/d/1d-0eDhm635JeFjvYBukNbum4GZSC9aLp/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/1Jh2U2x6P6ttVu8D8VE2kcoklrrP-_ky5/view?usp=drive_link",
           },
           {
             code: "OTVOS_BSTN04",
             name: "Thết Kế Khuôn Với Solidwork",
             type: ["BSTN", "SOLID"],
             img: "https://raw.githubusercontent.com/OTVGroup/OTISStudy/main/Folder/TECHNIQUE/OTVOS_BSTN04.jpg",
-            link: "https://drive.google.com/file/d/175omK-aiR2PXttsRmG9t0ogC82i7t8_X/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/1DCM1qQ9_cMgcAmcVighRqcRnZCoqJAFe/view?usp=drive_link",
           },
           // BSLG - LANGUAGE
           {
@@ -863,7 +863,7 @@
             name: "100 Công Thức Tiêu Đề Video",
             type: ["BSCC"],
             img: "https://raw.githubusercontent.com/OTVGroup/OTISStudy/main/Folder/CONTENT%20CREATOR/OTVOS_BSCC03.jpg",
-            link: "https://drive.google.com/file/d/1HI-d64tQcO244bphwsMmg_TVhDqOu4bg/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/1SqEzEhL1sbsxwUSNamY6h0mve4Yfe3RM/view?usp=drive_link",
           },
           {
             code: "OTVOS_BSCC04",
