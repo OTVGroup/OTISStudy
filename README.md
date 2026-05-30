@@ -117,9 +117,12 @@
       }
 
       @media (max-width: 600px) {
+        .body-top {
+          height: 25px;
+        }
+
         .body-top .img {
           display: none;
-          height: 25px;
         }
 
         .menu {
