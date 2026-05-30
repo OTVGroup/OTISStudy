@@ -119,6 +119,7 @@
       @media (max-width: 600px) {
         .body-top .img {
           display: none;
+          height: 25px;
         }
 
         .menu {
@@ -148,6 +149,13 @@
         font-family: "Segoe UI", sans-serif;
         background-color: #000000;
         color: #ffffff;
+      }
+
+      @media (max-width: 600px) {
+        .body-bottom {
+          top: 30px;
+          height: calc(100vh - 30px);
+        }
       }
 
       .header {
@@ -196,6 +204,12 @@
         justify-items: center;
         position: relative;
         flex-direction: column; /* Nếu bạn có nhiều post, vẫn xếp theo dòng */
+      }
+
+      @media (max-width: 600px) {
+        .video-container {
+          max-height: calc(100dvh - 30px);
+        }
       }
 
       .post-content {
